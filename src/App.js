@@ -1,11 +1,12 @@
 import React from "react";
-import AboutSection from "./components/AboutSection";
+import About from "./components/About";
+// import AboutSection from "./components/AboutSection";
 
 function App() {
   return (
     <div className="App">
-      <AboutSection/>
-      
+      {/* <AboutSection/> */}
+      <About />
     </div>
   );
 }

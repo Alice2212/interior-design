@@ -1,0 +1,62 @@
+.about-wrapper {
+  max-width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
+.line {
+  width: 30vw;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.about-header p {
+  max-width: 60vw;
+}
+
+.about-achivement {
+  margin-top: 3rem;
+}
+
+.achivement-body p {
+  max-width: 40vw;
+}
+.achivement-summary {
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-height: 20%;
+}
+.achivement-summary img {
+  flex: 1 1 60%;
+  height: 500px;
+}
+
+.achivement-summary .achievement-progress{
+  flex: 1 1 20%;
+  background: blue;
+}
+
+.achievement{
+    margin-buttom: 4rem;
+}
+
+@media screen and (max-width: 932px) {
+  .about-header p {
+    max-width: 70vw;
+  }
+  .achivement-body p {
+    max-width: 90vw;
+    text-align: center;
+  }
+
+  .line {
+    width: 40vw;
+  }
+  .achivement-summary {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
