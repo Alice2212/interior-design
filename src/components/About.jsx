@@ -21,38 +21,38 @@ function About() {
             <img src={heroImg} alt="group-pics" />
           </div>
         </div>
-        <div className="about-achivement ">
-          <div className="achivement-title flex mb-4">
-            <h3 className="pr-4 ">ACHIEVEMENT</h3>
-            <img src={Line} alt="line" className="line" />
+        <div className="about-achievement ">
+          <div className="achievement-title flex mb-4 ">
+            <h3 className="pr-4 mt-6 ">ACHIEVEMENT</h3>
+            <img src={Line} alt="line" className="line mt-6" />
           </div>
-          <div className="achivement-body">
+          <div className="achievement-body">
             <p className="my-8 text-2xl font-medium leading-10">
               interior customization with Danaanz, best quality with
               professional workers
             </p>
           </div>
-          <div className="achivement-summary flex flex-wrap">
+          <div className="achievement-summary flex flex-wrap">
             {/* <h1 className="">welcome</h1> */}
             <img src={achievementImg} alt="" />
-            <div className="achievement-progress p-12">
+            <div className="achievement-progress bg-blue-900 text-white p-12 flex flex-wrap flex-col">
               <div className="achievement">
                 <h4>350+</h4>
                 <small>Project Completed</small>
               </div>
-              <div className="achievement">
-                <h4>350+</h4>
-                <small>Project Completed</small>
+              <div className="achievement my-8">
+                <h4>35+</h4>
+                <small>Professional Teams</small>
               </div>
               <div className="achievement">
-                <h4>350+</h4>
-                <small>Project Completed</small>
+                <h4>15+</h4>
+                <small>Years Experience</small>
               </div>
             </div>
           </div>
         </div>
-        <div className="about-services"></div>
       </section>
+      
     </div>
   );
 }
