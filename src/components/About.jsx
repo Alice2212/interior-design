@@ -4,6 +4,7 @@ import heroImg from "../assets/img/aboutHero.jpg";
 import Line from "../assets/img/Line.svg";
 import achievementImg from "../assets/img/achievementImg.jpg";
 import ChooseUs from "./ChooseUs";
+import Discuss from "./Discuss";
 
 function About() {
   return (
@@ -52,6 +53,7 @@ function About() {
         </div>
       </section>
       <ChooseUs />
+      <Discuss />
     </div>
   );
 }

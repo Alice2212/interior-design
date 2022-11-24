@@ -12,6 +12,7 @@
   max-width: 40vw;
 }
 
+
 @media screen and (max-width: 932px) {
  .choose-body h1{
     margin-bottom: 1.5rem;
@@ -30,5 +31,6 @@
 
   .choose-cards{
     margin: auto;
+    margin-bottom: 3rem;
   }
 }
