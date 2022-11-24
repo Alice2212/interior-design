@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutSection.css";
-import Line from "../asssets/img/Line.svg";
-import aboutSectionImg from "../asssets/img/aboutSection.jpg";
-import person from "../asssets/img/person.jpg";
+import Line from "../assets/img/Line.svg";
+import aboutSectionImg from "../assets/img/aboutSection.jpg";
+import person from "../assets/img/person.jpg";
 
 
 function AboutSection() {

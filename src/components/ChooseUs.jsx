@@ -1,8 +1,35 @@
 import React from "react";
 import "./ChooseUs.css";
-import Line from "../asssets/img/Line.svg";
+import Line from "../assets/img/Line.svg";
+import avatar from "../assets/img/avatar.jpg";
 
 function ChooseUs() {
+  const cardItems = [
+    {
+      id: 1,
+      image: avatar,
+      alt: "person",
+      heading: "High Quality",
+      details:
+        "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.",
+    },
+    {
+      id: 2,
+      img: avatar,
+      alt: "person",
+      heading: "Professional Designer",
+      details:
+        "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.",
+    },
+    {
+      id: 3,
+      img: avatar,
+      alt: "person",
+      heading: "The Best Services",
+      details:
+        "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.",
+    },
+  ];
   return (
     <div>
       <section className="choose-wrapper">
@@ -13,59 +40,30 @@ function ChooseUs() {
           </div>
         </div>
         <div className="choose-body">
-          <h1 className="mt-6 font-medium text-xl">Why Choose Us ?</h1>
+          <h1 className="mt-6 font-medium text-xl text-center md:text-left">Why Choose Us ?</h1>
           <p className="my-6 mt-6 text-lg ">
             Customize your interior design into a dream place with the best
             designers and quality furniture. We try our best to fulfill your
             expectations.
           </p>
         </div>
-        <div className="choose-cards flex gap-x-6 gap-y-4 flex-wrap">
-          <div className="card w-96 bg-base-100 drop-shadow-xl">
-            <div className="avatar placeholder flex justify-center mt-6">
-              <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
-                <span>MX</span>
+        {/* why hose us cards section */}
+        <div className="choose-cards flex gap-x-6 gap-y-4 flex-wrap ">
+          {cardItems.map((data) => (
+            <div className="card w-96 bg-base-100 drop-shadow-xl rounded-none" key={data.id}>
+              <div className="avatar placeholder flex justify-center mt-6">
+                <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
+                  <span><img src={data.image} alt={data.alt} /></span>
+                </div>
+              </div>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">{data.heading}</h2>
+                <p>
+               {data.details}.
+                </p>
               </div>
             </div>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">High Quality</h2>
-              <p>
-                Customize your interior design into a dream place with the best
-                designers and quality furniture. We try our best to fulfill your
-                expectations.
-              </p>
-            </div>
-          </div>
-          <div className="card w-96 bg-base-100 drop-shadow-xl">
-            <div className="avatar placeholder flex justify-center mt-6">
-              <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
-                <span>MX</span>
-              </div>
-            </div>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">High Quality</h2>
-              <p>
-                Customize your interior design into a dream place with the best
-                designers and quality furniture. We try our best to fulfill your
-                expectations.
-              </p>
-            </div>
-          </div>
-          <div className="card w-96 bg-base-100 drop-shadow-xl">
-            <div className="avatar placeholder flex justify-center mt-6">
-              <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
-                <span>MX</span>
-              </div>
-            </div>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">High Quality</h2>
-              <p>
-                Customize your interior design into a dream place with the best
-                designers and quality furniture. We try our best to fulfill your
-                expectations.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
     </div>

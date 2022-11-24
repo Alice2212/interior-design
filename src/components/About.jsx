@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import heroImg from "../asssets/img/aboutHero.jpg";
-import Line from "../asssets/img/Line.svg";
-import achievementImg from "../asssets/img/achievementImg.jpg";
+import heroImg from "../assets/img/aboutHero.jpg";
+import Line from "../assets/img/Line.svg";
+import achievementImg from "../assets/img/achievementImg.jpg";
 import ChooseUs from "./ChooseUs";
 
 function About() {
