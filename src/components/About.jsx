@@ -3,7 +3,7 @@ import "./About.css";
 import heroImg from "../asssets/img/aboutHero.jpg";
 import Line from "../asssets/img/Line.svg";
 import achievementImg from "../asssets/img/achievementImg.jpg";
-
+import ChooseUs from "./ChooseUs";
 
 function About() {
   return (
@@ -23,7 +23,7 @@ function About() {
         </div>
         <div className="about-achievement ">
           <div className="achievement-title flex mb-4 ">
-            <h3 className="pr-4 mt-6 ">ACHIEVEMENT</h3>
+            <h3 className="pr-4 mt-6 font-medium text-xl">ACHIEVEMENT</h3>
             <img src={Line} alt="line" className="line mt-6" />
           </div>
           <div className="achievement-body">
@@ -32,8 +32,7 @@ function About() {
               professional workers
             </p>
           </div>
-          <div className="achievement-summary flex flex-wrap">
-            {/* <h1 className="">welcome</h1> */}
+          <div className="achievement-summary flex flex-wrap mb-8">
             <img src={achievementImg} alt="" />
             <div className="achievement-progress bg-blue-900 text-white p-12 flex flex-wrap flex-col">
               <div className="achievement">
@@ -52,7 +51,7 @@ function About() {
           </div>
         </div>
       </section>
-      
+      <ChooseUs />
     </div>
   );
 }
