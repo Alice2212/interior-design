@@ -15,7 +15,7 @@ function ChooseUs() {
     },
     {
       id: 2,
-      img: avatar,
+      image: avatar,
       alt: "person",
       heading: "Professional Designer",
       details:
@@ -23,7 +23,7 @@ function ChooseUs() {
     },
     {
       id: 3,
-      img: avatar,
+      image: avatar,
       alt: "person",
       heading: "The Best Services",
       details:
