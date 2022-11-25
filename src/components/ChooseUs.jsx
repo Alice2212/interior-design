@@ -39,7 +39,7 @@ function ChooseUs() {
             <img src={Line} alt="line" className="line mt-6" />
           </div>
         </div>
-        <div className="choose-body">
+        <div className="choose-body m-auto">
           <h1 className="mt-6 font-medium text-xl text-center md:text-left">Why Choose Us ?</h1>
           <p className="my-6 mt-6 text-lg ">
             Customize your interior design into a dream place with the best
@@ -48,9 +48,9 @@ function ChooseUs() {
           </p>
         </div>
         {/* why hose us cards section */}
-        <div className="choose-cards flex gap-x-6 gap-y-4 flex-wrap md:mb-12">
+        <div className="choose-cards flex gap-x-6 gap-y-4 flex-wrap md:mb-12 ">
           {cardItems.map((data) => (
-            <div className="card w-96 bg-base-100 drop-shadow-xl rounded-none" key={data.id}>
+            <div className="card w-96 bg-base-100 drop-shadow-xl rounded-none m-auto" key={data.id}>
               <div className="avatar placeholder flex justify-center mt-6">
                 <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
                   <span><img src={data.image} alt={data.alt} /></span>
