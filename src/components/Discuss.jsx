@@ -10,7 +10,7 @@ function Discuss() {
             <h1 className="text-2xl md:text-3xl font-medium">let's discuss making interior like a dream place!</h1>
           </div>
           <div className="Discuss-body text-base md:text-base ">
-            <p className="mb-6">
+            <p className="mb-2">
               Contact us below to work together to build your amazing border
             </p>
             <button className="btn border-none text-black bg-white rounded-none hover:bg-blue-500 hover:text-slate-50">

@@ -1,0 +1,15 @@
+.services-wrapper {
+  max-width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
+.line {
+  width: 30vw;
+}
+
+@media screen and (max-width: 932px) {
+  .line {
+    width: 40vw;
+  }
+}
