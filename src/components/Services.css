@@ -12,4 +12,13 @@
   .line {
     width: 40vw;
   }
+  .card-img{
+    order:2
+  }
+
+  .card-body{
+    order: 1;
+  }
+
+  
 }
