@@ -3,6 +3,8 @@ import "./Services.css";
 import servicesImg from "../assets/img/servicePics.jpg";
 import Line from "../assets/img/Line.svg";
 import cardImg1 from "../assets/img/cardImg1.jpg";
+import cardImg2 from "../assets/img/cardImg2.jpg";
+import cardImg3 from "../assets/img/cardImg3.jpg";
 
 const servicesCardItems = [
   {
@@ -15,7 +17,7 @@ const servicesCardItems = [
   },
   {
     id: 2,
-    image: cardImg1,
+    image: cardImg2,
     alt: "Consultant image",
     heading: "Consultant",
     details:
@@ -23,7 +25,7 @@ const servicesCardItems = [
   },
   {
     id: 3,
-    image: cardImg1,
+    image: cardImg3,
     alt: "Group image",
     heading: "construction consultant",
     details:
