@@ -24,13 +24,15 @@ const Header = () => {
       <li><a>About Us</a></li>
       <li><a>Services</a></li>
       <li><a>Our Teams</a></li>
-      <li> <div>
-    <a className="btn">Contact Us</a>
-  </div></li>
+      <li> 
+        <div>
+        <a className="btn bg-blue border-none">Contact Us</a>
+        </div>
+   </li>
     </ul>
   </div>
   <div className="navbar-end xl:hidden lg:hidden md:flex sm:flex">
-    <a className="btn">Get started</a>
+    <a className="btn bg-blue border-none">Contact Us</a>
   </div>
 </div>
     </header>
