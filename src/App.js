@@ -13,10 +13,9 @@ import Services from "./components/Services";
 function App() {
   return (
     <div className="App">
-
+  <Header />
       <ContactUs />
       <Portfolio />
-  <Header />
   <Hero />
       <About />
       <Services />

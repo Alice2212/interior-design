@@ -1,11 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import firstImage from "../asssets/img/first image.png";
-import secondImage from "../asssets/img/second image.png";
-import thirdImage from "../asssets/img/third image.png";
-import fourthImage from "../asssets/img/fourth image.png";
-import fifthImage from "../asssets/img/fifth image.png";
-import sixthImage from "../asssets/img/sixth image.png";
+import firstImage from "../assets/img/first image.png";
+import secondImage from "../assets/img/second image.png";
+import thirdImage from "../assets/img/third image.png";
+import fourthImage from "../assets/img/fourth image.png";
+import fifthImage from "../assets/img/fifth image.png";
+import sixthImage from "../assets/img/sixth image.png";
 
 function Portfolio() {
 	return (
