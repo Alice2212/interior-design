@@ -5,6 +5,7 @@ import Line from "../assets/img/Line.svg";
 import cardImg1 from "../assets/img/cardImg1.jpg";
 import cardImg2 from "../assets/img/cardImg2.jpg";
 import cardImg3 from "../assets/img/cardImg3.jpg";
+import ProductThemes from "./ProductThemes";
 
 const servicesCardItems = [
   {
@@ -75,23 +76,7 @@ function Services() {
         ))}
        
         </div>
-        {/* <div className="services-cards flex flex-wrap md:flex-col m-auto justify-between">
-          <div className="service--card flex flex-wrap md:flex-row items-center gap-2 md:gap-8 mb-2 md:mb-8">
-            <div className="card-img flex-auto m-auto">
-              <img src={cardImg1} alt="Interior-Decoration" />
-            </div>
-            <div className="card-body flex-auto md:max-w-md ">
-              <h1 className="text-center md:text-left text-2xl font-medium">
-                Interior Design
-              </h1>
-              <p className="text-center md:text-left">
-                Customize your interior design into a dream place with the best
-                designers and quality furniture. We try our best to fulfill your
-                expectations.
-              </p>
-            </div>
-          </div>
-        </div> */}
+        <ProductThemes />
       </section>
     </div>
   );
