@@ -12,4 +12,3 @@ function App() {
 
 export default App;
 
-git pull https://github.com/Alice2212/interior-design.git alice-branch
