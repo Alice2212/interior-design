@@ -4,6 +4,7 @@ import React from "react";
 import Portfolio from "./components/portfolio";
 
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 
 function App() {
@@ -13,8 +14,10 @@ function App() {
       {/* <ContactUs /> */}
       <Portfolio />
   <Header />
+  <Hero />
     </div>
   );
 }
 
 export default App;
+
