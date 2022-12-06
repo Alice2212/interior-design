@@ -9,6 +9,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 
 
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
   <Hero />
       <About />
       <Services />
+   
     </div>
   );
 }
