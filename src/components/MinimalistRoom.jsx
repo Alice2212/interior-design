@@ -20,9 +20,9 @@ const MinimalistRoom = () => {
         </div>
 
         {/* div for project and design process */}
-        <div className="minimalist-overview flex justify-between gap-32  ">
+        <div className="minimalist-overview flex flex-wrap justify-between gap-32 m-auto ">
           <div className="minimalist-overview  flex-1 ">
-            <h1 className="text-semibold">Project Overview</h1>
+            <h1 className="text-xl">Project Overview</h1>
             <p className="mb-12">
               Online learning with us does not interfere with your daily life.
               because learning can be done anytime and anywhere. Online learning
@@ -32,7 +32,7 @@ const MinimalistRoom = () => {
               anytime and anywhere.
             </p>
             <div className="flex justify-between ">
-                <h2>July 22-2022</h2>
+                <h2 className="text-xl">July 22-2022</h2>
                 <h2 className="mr-40">Interior Design-Furniture</h2>
             </div>
           </div>
