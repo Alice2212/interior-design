@@ -1,0 +1,12 @@
+.minimalist-wrapper {
+  max-width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
+.minimalist-img{
+    width: 100%;
+}
+
+@media screen and (max-width: 932px) {
+}

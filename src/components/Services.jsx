@@ -6,6 +6,7 @@ import cardImg1 from "../assets/img/cardImg1.jpg";
 import cardImg2 from "../assets/img/cardImg2.jpg";
 import cardImg3 from "../assets/img/cardImg3.jpg";
 import ProductThemes from "./ProductThemes";
+import Discuss from "./Discuss";
 
 const servicesCardItems = [
   {
@@ -59,25 +60,26 @@ function Services() {
         </div>
         {/* services card section */}
         <div className="services-cards flex flex-wrap md:flex-col m-auto justify-between">
-        {servicesCardItems.map((data)=>(
-            <div className="service--card flex flex-wrap md:flex-row items-center gap-2 md:gap-8 mb-2 md:mb-8" key={data.id}>
-            <div className="card-img flex-auto m-auto">
-              <img src={data.image} alt={data.alt} />
+          {servicesCardItems.map((data) => (
+            <div
+              className="service--card flex flex-wrap md:flex-row items-center gap-2 md:gap-8 mb-2 md:mb-8"
+              key={data.id}
+            >
+              <div className="card-img flex-auto m-auto">
+                <img src={data.image} alt={data.alt} />
+              </div>
+              <div className="card-body flex-auto md:max-w-md ">
+                <h1 className="text-center md:text-left text-2xl font-medium">
+                  {data.heading}
+                </h1>
+                <p className="text-center md:text-left">{data.details}</p>
+              </div>
             </div>
-            <div className="card-body flex-auto md:max-w-md ">
-              <h1 className="text-center md:text-left text-2xl font-medium">
-                {data.heading}
-              </h1>
-              <p className="text-center md:text-left">
-                {data.details}
-              </p>
-            </div>
-          </div>
-        ))}
-       
+          ))}
         </div>
         <ProductThemes />
       </section>
+      <Discuss />
     </div>
   );
 }

@@ -14,4 +14,12 @@
   .line {
     width: 40vw;
   }
+
+  .product-middle{
+    margin-left: 0rem;
+  }
+
+  .arrow-right{
+    width: 7%;
+  }
 }
