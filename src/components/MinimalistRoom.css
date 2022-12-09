@@ -4,21 +4,18 @@
   padding: 0;
 }
 
-.minimalist-img{
-    width: 100%;
+.minimalist-project{
+  flex: 1 1 40rem;
 }
 
-.minimalist-pics{
-  max-height: 70vh;
+.minimalist-design{
+  flex: 1 1 40rem;
 }
 
-.ma-pics{
+.minimalist-img {
   width: 100%;
-
 }
 
 
 @media screen and (max-width: 932px) {
 }
-
-
