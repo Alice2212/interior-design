@@ -8,5 +8,17 @@
     width: 100%;
 }
 
+.minimalist-pics{
+  max-height: 70vh;
+}
+
+.ma-pics{
+  width: 100%;
+
+}
+
+
 @media screen and (max-width: 932px) {
 }
+
+
