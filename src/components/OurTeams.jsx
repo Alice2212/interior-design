@@ -2,6 +2,8 @@ import React from "react";
 import "./OurTeams.css";
 import ourTeamImg from "../assets/img/ourTeams1.jpg";
 import Line from "../assets/img/Line.svg";
+import firstDesigner from "../assets/img/team1.png";
+import Discuss from "./Discuss";
 
 const OurTeams = () => {
   return (
@@ -33,7 +35,17 @@ const OurTeams = () => {
             </p>
           </div>
         </div>
+        <div className="teams-images ">
+          <div className="designers-images bg-blue-800 my-8">
+            <img src={firstDesigner} alt="designerTeam"/>
+            <div className="designer-description ">
+
+            </div>
+            
+          </div>
+        </div>
       </section>
+      <Discuss />
     </div>
   );
 };

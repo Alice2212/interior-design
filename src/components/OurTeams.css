@@ -12,6 +12,21 @@
   max-width: 40vw;
 }
 
+.designers-images{
+  max-width: 17rem;
+  height: 59vh;
+  border: 1px solid blue;
+}
+
+.designer-description{
+  position: relative;
+  top: -15%;
+  max-height: 30vh;
+  width: 14rem;
+  background-color: white;
+  border: 1px solid white;
+}
+
 @media screen and (max-width: 932px) {
   .designers-body {
     max-width: 90vw;
