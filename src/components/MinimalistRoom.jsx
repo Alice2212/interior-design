@@ -26,12 +26,12 @@ const MinimalistRoom = () => {
         </div>
 
         {/* div for project and design process */}
-        <div className="minimalist-overview flex flex-wrap md:flex-nowrap  flex-row justify-between">
+        <div className="minimalist-overview flex flex-wrap md:flex-nowrap  flex-row justify-between mb-12 mx-auto">
           <div className="minimalist-project md:mr-8 mx-auto md:w-64 ">
             <h1 className="text-2xl font-semibold md:text-left text-center mb-4">
               Project Overview
             </h1>
-            <p className="mb-12 text-base">
+            <p className="mb-8 text-base">
               Online learning with us does not interfere with your daily life.
               because learning can be done anytime and anywhere. Online learning
               with us does not interfere with your daily life. because learning
@@ -46,17 +46,17 @@ const MinimalistRoom = () => {
               </h2>
             </div>
           </div>
-          <div className="minimalist-design md:ml-8 mx-auto  md:w-64">
+          <div className="minimalist-design md:ml-8 mx-auto  md:w-64 mt-12 md:mt-0">
             <h1 className="text-2xl font-semibold md:text-left text-center mb-4">
               Design Process
             </h1>
-            <p className="mb-6 text-base">
+            <p className="mb-10 text-base">
               Online learning with us does not interfere with your daily life.
               because learning can be done anytime and anywhere. Online learning
               with us does not interfere with your daily life. because learning
               can be done anytime and anywhere.
             </p>
-            <p className="mb-6 text-base">
+            <p className="text-base">
               Online learning with us does not interfere with your daily life.
               because learning can be done anytime and anywhere. Online learning
               with us does not interfere with your daily life. because learning
