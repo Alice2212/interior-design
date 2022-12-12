@@ -35,13 +35,41 @@ const OurTeams = () => {
             </p>
           </div>
         </div>
-        <div className="teams-images ">
-          <div className="designers-images bg-blue-800 my-8">
-            <img src={firstDesigner} alt="designerTeam"/>
-            <div className="designer-description ">
-
+        <div className="teams-images flex flex-wrap justify-center items-center gap-10 ">
+          <div className="designers-images my-8">
+            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
+            <div className="designer-description text-center mx-auto">
+              <h1>Shoo Phar Dhie</h1>
+              <p>CEO</p>
             </div>
-            
+          </div>
+          <div className="designers-images my-8">
+            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
+            <div className="designer-description mx-auto">
+              <h1>Shoo Phar Dhie</h1>
+              <p>CEO</p>
+            </div>
+          </div>
+          <div className="designers-images my-8">
+            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
+            <div className="designer-description mx-auto">
+              <h1>Shoo Phar Dhie</h1>
+              <p>CEO</p>
+            </div>
+          </div>
+          <div className="designers-images my-8">
+            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
+            <div className="designer-description mx-auto">
+              <h1>Shoo Phar Dhie</h1>
+              <p>CEO</p>
+            </div>
+          </div>
+          <div className="designers-images my-8">
+            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
+            <div className="designer-description mx-auto">
+              <h1>Shoo Phar Dhie</h1>
+              <p>CEO</p>
+            </div>
           </div>
         </div>
       </section>
