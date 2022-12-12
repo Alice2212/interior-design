@@ -1,0 +1,24 @@
+.ourTeams-wrapper {
+  max-width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
+.line {
+  width: 30vw;
+}
+
+.designers-body {
+  max-width: 40vw;
+}
+
+@media screen and (max-width: 932px) {
+  .designers-body {
+    max-width: 90vw;
+    text-align: center;
+  }
+
+  .line {
+    width: 40vw;
+  }
+}
