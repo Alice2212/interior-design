@@ -12,18 +12,17 @@
   max-width: 40vw;
 }
 
-.designers-images{
+.designers-images {
   max-width: 17rem;
   height: 60vh;
-  /* border: 1px solid blue; */
 }
 
-.teams-img{
+.teams-img {
   background: blue;
   padding: 0.5rem;
 }
 
-.designer-description{
+.designer-description {
   position: relative;
   top: -22%;
   height: 20%;
@@ -41,4 +40,16 @@
   .line {
     width: 40vw;
   }
+
+  .designers-images {
+    max-width: 17rem;
+    height: 42vh;
+  }
+  .designer-description {
+    position: relative;
+    top: -17%;
+    height: 15%;
+  }
+
+ 
 }

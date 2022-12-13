@@ -3,9 +3,58 @@ import "./OurTeams.css";
 import ourTeamImg from "../assets/img/ourTeams1.jpg";
 import Line from "../assets/img/Line.svg";
 import firstDesigner from "../assets/img/team1.png";
+import secondDesigner from "../assets/img/team2.png";
+import thirdDesigner from "../assets/img/team3.png";
+import fourthDesigner from "../assets/img/team4.png";
+import fifthDesigner from "../assets/img/team5.png";
+import sixthDesigner from "../assets/img/team6.png";
+import seventhDesigner from "../assets/img/team6.png";
+import eigthDesigner from "../assets/img/team8.png";
 import Discuss from "./Discuss";
 
 const OurTeams = () => {
+  const teamsDetails = [
+    {
+      image: firstDesigner,
+      title: "Shoo Phar Dhie",
+      position: "CEO",
+    },
+    {
+      image: secondDesigner,
+      title: "Shoo Phar Dhie",
+      position: "CTO",
+    },
+    {
+      image: thirdDesigner,
+      title: "Shoo Phar Dhie",
+      position: "CTO",
+    },
+    {
+      image: fourthDesigner,
+      title: "Shoo Phar Dhie",
+      position: "CTO",
+    },
+    {
+      image: fifthDesigner,
+      title: "Shoo Phar Dhie",
+      position: "CTO",
+    },
+    {
+      image: sixthDesigner,
+      title: "Shoo Phar Dhie",
+      position: "CTO",
+    },
+    {
+      image: seventhDesigner,
+      title: "Shoo Phar Dhie",
+      position: "CTO",
+    },
+    {
+      image: eigthDesigner,
+      title: "Shoo Phar Dhie",
+      position: "CTO",
+    },
+  ];
   return (
     <div>
       <section className="ourTeams-wrapper">
@@ -35,42 +84,17 @@ const OurTeams = () => {
             </p>
           </div>
         </div>
-        <div className="teams-images flex flex-wrap justify-center items-center gap-10 ">
-          <div className="designers-images my-8">
-            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
-            <div className="designer-description text-center mx-auto">
-              <h1>Shoo Phar Dhie</h1>
-              <p>CEO</p>
+
+        <div className="teams-images flex flex-wrap justify-center items-center gap-x-8 mt-8 my-auto">
+          {teamsDetails.map((data, index) => (
+            <div className="designers-images" key={index}>
+              <img src={data.image} alt="designerTeam" className="teams-img" />
+              <div className="designer-description text-center mx-auto">
+                <h1>{data.title}</h1>
+                <p>{data.position}</p>
+              </div>
             </div>
-          </div>
-          <div className="designers-images my-8">
-            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
-            <div className="designer-description mx-auto">
-              <h1>Shoo Phar Dhie</h1>
-              <p>CEO</p>
-            </div>
-          </div>
-          <div className="designers-images my-8">
-            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
-            <div className="designer-description mx-auto">
-              <h1>Shoo Phar Dhie</h1>
-              <p>CEO</p>
-            </div>
-          </div>
-          <div className="designers-images my-8">
-            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
-            <div className="designer-description mx-auto">
-              <h1>Shoo Phar Dhie</h1>
-              <p>CEO</p>
-            </div>
-          </div>
-          <div className="designers-images my-8">
-            <img src={firstDesigner} alt="designerTeam" className="teams-img" />
-            <div className="designer-description mx-auto">
-              <h1>Shoo Phar Dhie</h1>
-              <p>CEO</p>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
       <Discuss />
