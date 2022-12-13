@@ -1,0 +1,42 @@
+.Landingpage-wrapper {
+    max-width: 100vw;
+}
+
+.Landing-page{
+    max-width: 90%;
+    margin: auto;
+}
+
+.achievement-progress{
+margin-left: 70rem;
+position: absolute;
+}
+
+.kitchenImg{
+    width: 80%;
+    height: 90%;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.DiningImg{
+    width:80%;
+    height: 90%;
+    position: relative;
+    margin-left: 6rem;
+}
+
+.second-section {
+    width: 45rem;
+    margin-left: 6rem;
+}
+
+.smallImg img{
+    margin-top: -27rem;
+    margin-left: 48rem;
+    position: absolute;
+}
+
+.main-section{
+    width: 24rem;
+}
