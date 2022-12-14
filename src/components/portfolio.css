@@ -1,0 +1,38 @@
+.portfolio-wrapper {
+	max-width: 100vw;
+}
+
+.port {
+	max-width: 90%;
+    margin: auto;
+}
+
+.secondImg, .thirdImg, .fifthImg{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+
+.smallImg img{
+    margin-top: -30rem;
+    margin-left: 48rem;
+    position: absolute;
+   
+}
+
+.secondPortfolio .smallImg img{
+    margin-top: -30rem;
+    margin-left: -15rem;
+    position: absolute;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .secondPortfolio{
+        order: 1;
+    }
+
+    .secondTxt{
+        order: 2;
+    }
+}
