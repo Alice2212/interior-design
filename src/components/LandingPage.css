@@ -1,42 +1,82 @@
 .Landingpage-wrapper {
-    max-width: 100vw;
+	max-width: 90%;
 }
 
-.Landing-page{
-    max-width: 90%;
-    margin: auto;
+.Landing-page {
+	margin: auto;
 }
 
-.achievement-progress{
-margin-left: 70rem;
-position: absolute;
+.achievement-progress {
+	left: 75%;
+	position: absolute;
+	z-index: 2;
 }
 
-.kitchenImg{
-    width: 80%;
-    height: 90%;
-    position: relative;
-    margin-left: 2rem;
+.kitchenImg {
+	width: 100%;
+	position: relative;
 }
 
-.DiningImg{
-    width:80%;
-    height: 90%;
-    position: relative;
-    margin-left: 6rem;
+.DiningImg {
+	width: 90%;
+	height: 90%;
+	position: relative;
+	margin-left: 6rem;
 }
 
 .second-section {
-    width: 45rem;
-    margin-left: 6rem;
+	margin-left: 6rem;
 }
 
-.smallImg img{
-    margin-top: -27rem;
-    margin-left: 48rem;
-    position: absolute;
+.smallImg img {
+	margin-top: -30rem;
+	margin-left: 48rem;
+	position: absolute;
 }
 
-.main-section{
-    width: 24rem;
+.main-section {
+	width: 24rem;
+}
+
+.arrow-right {
+	width: 2%;
+	margin-right: 32rem;
+}
+.product-middle {
+	margin-left: 0rem;
+}
+.last-section {
+	width: 70%;
+	background-color: rgb(253, 251, 251);
+	top: 240%;
+	border: 1px solid;
+	z-index: 1;
+	
+}
+
+@media screen and (max-width: 932px) {
+	.line {
+		width: 40vw;
+	}
+
+	.product-middle {
+		margin-left: 0rem;
+	}
+
+	.arrow-right {
+		width: 7%;
+		margin-right: 0rem;
+	}
+
+	.achievement-progress {
+		left: 60%;
+	}
+
+	.DiningImg {
+		margin: auto;
+	}
+
+	.last-section {
+		max-width: 80%;
+	}
 }
