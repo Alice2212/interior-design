@@ -48,10 +48,9 @@
 .last-section {
 	width: 70%;
 	background-color: rgb(253, 251, 251);
-	top: 240%;
+	top: 250%;
 	border: 1px solid;
 	z-index: 1;
-	
 }
 
 @media screen and (max-width: 932px) {
@@ -78,5 +77,6 @@
 
 	.last-section {
 		max-width: 80%;
+		display: none;
 	}
 }

@@ -33,13 +33,13 @@ function LandingPage() {
 			<div className="Landingpage-wrapper  mx-auto">
 				<div classname="Landing-page">
 					<div className="flex flex-row gap-4">
-						<h1 className="Heading text-black text-6xl font-bold w-96 mt-12">
+						<h1 className="Heading text-black text-6xl font-bold w-96 mb-12">
 							Design Your interior with high quality.
 						</h1>
 						<hr className="mt-20 w-96 h-1 bg-gray-100  m:my-10 dark:bg-gray-700" />
 					</div>
 
-					<div className="achievement-progress bg-blue-900 text-white p-12 flex flex-wrap flex-col w-44 -mt-20">
+					<div className="achievement-progress bg-blue-900 text-white p-12 flex flex-wrap flex-col w-44 -mt-44">
 						<div className="achievement">
 							<h4>350+</h4>
 							<small>Project Completed</small>
@@ -53,18 +53,20 @@ function LandingPage() {
 							<small>Years Experience</small>
 						</div>
 					</div>
-					<div className="mt-36">
+					<div className="mb-44">
 						<img src={kitchenImage} alt="kitchenimage" className="kitchenImg" />
 					</div>
-					<div className="flex flex-row gap-4">
-						<p className="text-black mt-8 px-2">ABOUT</p>
-						<hr className="mt-4  w-96 h-1  bg-gray-100  md:my-10 dark:bg-gray-700" />
+					<div className="mb-64">
+						<div className="flex flex-row gap-4">
+							<p className="text-black mt-8 px-2">ABOUT</p>
+							<hr className="mt-4  w-96 h-1  bg-gray-100  md:my-10 dark:bg-gray-700" />
+						</div>
+						<h2 className=" second-section text-black text-2xl font-bold">
+							“We're one of the best furniture agency. Prioritizing customers
+							and making purchases easy are the hallmarks of our agency.”
+						</h2>
 					</div>
-					<h2 className=" second-section text-black text-2xl font-bold">
-						“We're one of the best furniture agency. Prioritizing customers and
-						making purchases easy are the hallmarks of our agency.”
-					</h2>
-					<div className="text-black flex flex-wrap justify-between m-auto">
+					<div className="text-black flex flex-wrap justify-between m-auto -mt-64">
 						<div className="flex gap-12 justify-between flex-wrap">
 							<div className="mt-20 mb:mb-8">
 								<img
@@ -133,13 +135,11 @@ function LandingPage() {
 								</div>
 							</div>
 						</div>
-						<div className="md:ml-44 m-auto relative mt-72 mb-20">
+
+						<div className="md:ml-44 m-auto relative mt-72">
 							<img src={SittingRoom} alt="sittingroom" className="sittingImg" />
 						</div>
 					</div>
-					{/* <div className="md:ml-44 m-auto ">
-						<img src={SittingRoom} alt="sittingroom" className="sittingImg" />
-					</div> */}
 				</div>
 			</div>
 		</div>
