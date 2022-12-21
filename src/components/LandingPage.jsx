@@ -58,7 +58,7 @@ function LandingPage() {
 					</div>
 					<div className="mb-64">
 						<div className="flex flex-row gap-4">
-							<p className="text-black mt-8 px-2">ABOUT</p>
+							<p className="text-black mt-8 px-2">ABOUT.</p>
 							<hr className="mt-4  w-96 h-1  bg-gray-100  md:my-10 dark:bg-gray-700" />
 						</div>
 						<h2 className=" second-section text-black text-2xl font-bold">
