@@ -1,0 +1,73 @@
+.about-wrapper {
+  max-width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
+.line {
+  width: 30vw;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+
+
+.about-achievement {
+  margin-top: 3rem;
+}
+
+.achievement-body p {
+  max-width: 40vw;
+}
+.achievement-summary {
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-height: 20%;
+}
+.achievement-summary img {
+  flex: 1 1 60%;
+  height: 500px;
+}
+
+.achievement-summary .achievement-progress{
+  flex: 1 1 20%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.achievement-progress h4{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.achievement-progress small{
+  font-size: 1rem;
+}
+
+
+@media screen and (max-width: 932px) {
+  .about-header p {
+    max-width: 70vw;
+  }
+  .achievement-body p {
+    max-width: 90vw;
+    text-align: center;
+  }
+
+  .line {
+    width: 40vw;
+  }
+  .achievement-summary {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .achievement-progress h4{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,24 @@
+.discuss-container {
+  max-width: 90%;
+}
+
+.Discuss-title {
+  max-width: 40%;
+}
+@media screen and (max-width: 932px) {
+  .discuss-container {
+    margin: auto;
+    gap: 3rem;
+  }
+  .Discuss-title {
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .Discuss-body {
+    margin: auto;
+    text-align: center;
+    max-width: 70%;
+  }
+}
