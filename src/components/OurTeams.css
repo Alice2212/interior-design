@@ -1,0 +1,55 @@
+.ourTeams-wrapper {
+  max-width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
+.line {
+  width: 30vw;
+}
+
+.designers-body {
+  max-width: 40vw;
+}
+
+.designers-images {
+  max-width: 17rem;
+  height: 60vh;
+}
+
+.teams-img {
+  background: blue;
+  padding: 0.5rem;
+}
+
+.designer-description {
+  position: relative;
+  top: -22%;
+  height: 20%;
+  width: 90%;
+  background-color: white;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 932px) {
+  .designers-body {
+    max-width: 90vw;
+    text-align: center;
+  }
+
+  .line {
+    width: 40vw;
+  }
+
+  .designers-images {
+    max-width: 17rem;
+    height: 42vh;
+  }
+  .designer-description {
+    position: relative;
+    top: -17%;
+    height: 15%;
+  }
+
+ 
+}

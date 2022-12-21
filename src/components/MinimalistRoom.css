@@ -1,0 +1,21 @@
+.minimalist-wrapper {
+  max-width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
+.minimalist-project{
+  flex: 1 1 40rem;
+}
+
+.minimalist-design{
+  flex: 1 1 40rem;
+}
+
+.minimalist-img {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 932px) {
+}
